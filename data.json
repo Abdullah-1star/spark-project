@@ -1,0 +1,47 @@
+[
+  {"id": 1, "name": "Ahmed", "amount": 100.0},
+  {"id": 2, "name": "Omar", "amount": 250.0},
+  {"id": 3, "name": "Ali", "amount": 75.5},
+  {"id": 4, "name": "Mohamed", "amount": 320.0},
+  {"id": 5, "name": "Youssef", "amount": 150.0},
+  {"id": 6, "name": "Mahmoud", "amount": 500.0},
+  {"id": 7, "name": "Hassan", "amount": 45.75},
+  {"id": 8, "name": "Khaled", "amount": 89.99},
+  {"id": 9, "name": "Mostafa", "amount": 210.5},
+  {"id": 10, "name": "Amr", "amount": 999.99},
+
+  {"id": 11, "name": "Ibrahim", "amount": 0.0},
+  {"id": 12, "name": "Tarek", "amount": -50.0},
+  {"id": 13, "name": "Karim", "amount": -10.5},
+  {"id": 14, "name": "Samir", "amount": 0.0},
+  {"id": 15, "name": "Wael", "amount": -100.0},
+
+  {"id": 16, "name": null, "amount": 100.0},
+  {"id": 17, "name": null, "amount": 250.0},
+  {"id": 18, "name": null, "amount": 75.5},
+  {"id": 19, "name": null, "amount": -20.0},
+  {"id": 20, "name": null, "amount": 0.0},
+
+  {"id": 21, "name": "Sayed", "amount": 125.25},
+  {"id": 22, "name": "Adel", "amount": 300.0},
+  {"id": 23, "name": "Sherif", "amount": 60.0},
+  {"id": 24, "name": "Ayman", "amount": 450.75},
+  {"id": 25, "name": "Nader", "amount": 800.0},
+  {"id": 26, "name": "Bassem", "amount": 33.33},
+  {"id": 27, "name": "Hany", "amount": 175.5},
+  {"id": 28, "name": "Fady", "amount": 220.0},
+  {"id": 29, "name": "Ziad", "amount": 999.0},
+  {"id": 30, "name": "Eslam", "amount": 55.55},
+
+  {"id": 31, "name": "George", "amount": 120.0},
+  {"id": 32, "name": "Peter", "amount": 275.5},
+  {"id": 33, "name": "Mina", "amount": 410.0},
+  {"id": 34, "name": "Mark", "amount": 88.8},
+  {"id": 35, "name": "John", "amount": 1500.0},
+
+  {"id": 36, "name": null, "amount": 500.0},
+  {"id": 37, "name": "Ramy", "amount": -5.0},
+  {"id": 38, "name": "Emad", "amount": 0.0},
+  {"id": 39, "name": "Hesham", "amount": 650.25},
+  {"id": 40, "name": "Sameh", "amount": 90.0}
+]
