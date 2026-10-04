@@ -1,0 +1,24 @@
+name: CI                                  # اسم الـ workflow اللي هيظهر في تاب Actions
+
+on:                                       # امتى يشتغل
+  pull_request:                           # لما Pull Request يتفتح أو يتحدث
+
+jobs:                                     # قايمة الشغلات
+  test:                                   # اسم الـ job (ممكن تسميه أي حاجة)
+    runs-on: ubuntu-latest                # الجهاز اللي هيشغل الـ job: لينكس من GitHub
+    steps:                                # الخطوات بالترتيب
+
+      - uses: actions/checkout@v4         # ينزل الكود من الـ repo على الجهاز
+
+      - uses: actions/setup-python@v5     # يثبت Python(هو اكشن جاهز علي جتهاب بدل ما تقع\ تكتبه)
+        with:
+          python-version: "3.11"          # الإصدار (3.11 متوافق مع pyspark 3.5.6)
+
+      - uses: actions/setup-java@v4       # يثبت Java (PySpark محتاجها)
+        with:
+          distribution: temurin           # نوع الـ JDK
+          java-version: "17"              # إصدار Java
+#هنا بقا الجز بتاعنا 
+
+      - run: pip install -r requirements.txt   # يثبت pyspark وpytest  
+      - run: pytest                       # يشغل كل الـ tests (لو واحد فشل الـ job يفشل)
